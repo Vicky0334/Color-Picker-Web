@@ -1,0 +1,31 @@
+.no-wrap {
+    white-space: nowrap;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.history {
+    border-bottom: 2px solid #e2e8f0; 
+}
+
+.history:hover {
+    background-color: #f7fafc; 
+}
+
+#savedColors div {
+    transition: transform 0.2s;
+}
+
+#savedColors div:hover {
+    transform: scale(1.05); 
+}
+
+#imagePreview {
+    width: 700px; 
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
